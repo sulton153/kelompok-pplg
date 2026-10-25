@@ -1,0 +1,590 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 282,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "initialGDVersion": "5.6.282",
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "e44634f0-cd59-4535-9bc7-402253811c5b",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "proyek kelompok",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "background_team_intro.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "background_team_intro.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "background_panjang.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background_panjang.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spritesheet-tiles-default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spritesheet-tiles-default.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Tilemap/16c6bb75a286c8dd9b224626c7493085ee2b25516f0ffcb078e5ae5b826c7e4d_spritesheet-tiles-default.png",
+          "name": "spritesheet-tiles-default.png"
+        }
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Tempat_32kejadian_32tanpa_32judul",
+      "name": "Tempat kejadian tanpa judul",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.27253598967729364,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 722,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewPanelSprite",
+          "persistentUuid": "3e4760ba-efdd-43ca-a50a-f7bb45892a14",
+          "width": 3363,
+          "x": -7,
+          "y": -25,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "b21868ea-2b37-4e00-a7f3-bc797c970880",
+          "width": 0,
+          "x": -5,
+          "y": 656,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":15,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[277,277,277,277,277,277,277,277,277,277,277,277,277,277,277]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "44e2123a-2f0d-4ede-9de8-b804ba95c615",
+          "width": 0,
+          "x": 954,
+          "y": 656,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":15,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[277,277,277,277,277,277,277,277,277,277,277,277,277,277,277]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "efbe5517-abe4-4e9d-983a-68da72bb7268",
+          "width": 0,
+          "x": 1914,
+          "y": 656,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":15,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[277,277,277,277,277,277,277,277,277,277,277,277,277,277,277]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "ca59218d-c93e-4b6d-973b-84d9d4a09095",
+          "width": 554,
+          "x": 2874,
+          "y": 656,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":15,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[277,277,277,277,277,277,277,277,277,277,277,277,277,277,277]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "af4163d2-d7c3-44ac-915c-ed1b02eb93de",
+          "width": 816,
+          "x": -442,
+          "y": 284,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":15,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[277,277,277,277,277,277,277,277,277,277,277,277,277,277,277]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "7eaf6559-e207-4266-9119-4e1b883d0f9a",
+          "width": 0,
+          "x": -8,
+          "y": -90,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":15,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[277,277,277,277,277,277,277,277,277,277,277,277,277,277,277]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "024d2b73-28f4-4aec-9ae0-ba901754aa49",
+          "width": 0,
+          "x": 952,
+          "y": -91,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":15,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[277,277,277,277,277,277,277,277,277,277,277,277,277,277,277]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "85aad21f-1231-420f-a825-8247d9d5c686",
+          "width": 0,
+          "x": 1913,
+          "y": -89,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":15,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[277,277,277,277,277,277,277,277,277,277,277,277,277,277,277]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "1172a99e-463f-4ce0-a746-16ccdec9a302",
+          "width": 551,
+          "x": 2872,
+          "y": -85,
+          "zOrder": -5,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":15,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[277,277,277,277,277,277,277,277,277,277,277,277,277,277,277]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "fb52729b-7bd9-4abd-afe6-68972a9d8355",
+          "width": 757,
+          "x": 3014,
+          "y": 284,
+          "zOrder": -4,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":15,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[277,277,277,277,277,277,277,277,277,277,277,277,277,277,277]]}]}"
+            }
+          ],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "NewVideo",
+          "persistentUuid": "4df32e2b-e1f9-4414-aa75-00070a2f9b83",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": false,
+            "volume": 100,
+            "videoResource": "background_team_intro.mp4"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite",
+          "persistentUuid": "a1daa7f6-4ee9-4d2d-b85d-617ee77fee38",
+          "rightMargin": 0,
+          "texture": "background_panjang.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "persistentUuid": "31791d3d-b95e-4d74-89bd-94ca869db675",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "f2c788b405c7ff269777f7ad411833c31b8f821c2f6f891c2248bfa421e83370",
+          "name": "Tiles_And_Props",
+          "persistentUuid": "216c0841-9ec9-4af5-ac64-df015213d765",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "atlasImage": "spritesheet-tiles-default.png",
+            "rowCount": 18,
+            "columnCount": 18,
+            "tileSize": 64,
+            "tilesWithHitBox": "1,19,37,55,73,91,109,127,145,163,181,199,217,235,253,271,289,307,2,20,38,56,74,92,110,128,146,164,182,200,218,236,254,272,290,308,3,21,39,57,75,93,111,129,147,165,183,201,219,237,255,273,291,309,4,22,40,58,76,94,112,130,148,166,184,202,220,238,256,274,292,310,5,23,41,59,77,95,113,131,149,167,185,203,221,239,257,275,293,311,6,24,42,60,78,96,114,132,150,168,186,204,222,240,258,276,294,312,7,25,43,61,79,97,115,133,151,169,187,205,223,241,259,277,295,313,8,26,44,62,80,98,116,134,152,170,188,206,224,242,260,278,296,314,9,27,45,63,81,99,117,135,153,171,189,207,225,243,261,17,35,53,71,89,107,124,142,160,178,196,214,232,250,268,286,304,322,303,321,285,267,306,162,180,198,216,234,252,270,288,0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "persistentUuid": "c8221ef0-1543-4db2-a4bf-cc1e814a9de0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "NewFolder",
+            "children": [
+              {
+                "objectName": "NewTiledSprite"
+              },
+              {
+                "objectName": "Tiles_And_Props"
+              }
+            ]
+          },
+          {
+            "folderName": "NewFolderbackground",
+            "children": [
+              {
+                "objectName": "NewVideo"
+              },
+              {
+                "objectName": "NewPanelSprite"
+              }
+            ]
+          },
+          {
+            "objectName": "NewSprite"
+          }
+        ]
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "TileMap",
+          "type": "TileMap::TileMapBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}
