@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 284,
+    "build": 285,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1455,7 +1455,7 @@
       "title": "",
       "v": 249,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -1465,7 +1465,7 @@
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
+        "snap": false,
         "zoomFactor": 0.44819780454104396,
         "windowMask": true,
         "selectedLayer": "",
@@ -1899,8 +1899,8 @@
           "name": "GameOverText",
           "persistentUuid": "943defb9-3110-4311-8601-25f21f2942bc",
           "width": 700,
-          "x": 290,
-          "y": 320,
+          "x": 288,
+          "y": 325,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -8715,7 +8715,7 @@
       },
       "events": [
         {
-          "aiGeneratedEventId": "01M5YE4KWZ1Y2N1JADP1C4G2X7",
+          "aiGeneratedEventId": "01M60NS5GQFQZRK5MJGX1KC8YP",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -8729,6 +8729,20 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "-288",
+                "-640",
+                "4712",
+                "704",
+                "\"\"",
+                "0"
               ]
             }
           ]
@@ -8902,7 +8916,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M5YE4KWZ1Y2N1JADP1C4G2X7",
+          "aiGeneratedEventId": "01M60NV1RFZPJ0WZJ3V7XYSCKK",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -8961,6 +8975,15 @@
             {
               "type": "BuiltinCommonInstructions::Else",
               "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "MC",
+                    "PlatformerObject"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PlatformBehavior::IsMoving"
@@ -10551,6 +10574,248 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "aiGeneratedEventId": "01M60NT6BR4K5KJ8Z0X37ZBY5T",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "MC.X()",
+                "<",
+                "-288"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "MC",
+                "=",
+                "-288"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M60NT6BR4K5KJ8Z0X37ZBY5T",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "MC.X() + MC.Width()",
+                ">",
+                "4712"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "MC",
+                "=",
+                "4712 - MC.Width()"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M60NT6BR4K5KJ8Z0X37ZBY5T",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "MC.Y()",
+                "<",
+                "-640"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "MC",
+                "=",
+                "-640"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M60NT6BR4K5KJ8Z0X37ZBY5T",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "NPC",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "NPC.X()",
+                    "<",
+                    "-288"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "=",
+                    "-288"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "NPC.X() + NPC.Width()",
+                    ">",
+                    "4712"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "=",
+                    "4712 - NPC.Width()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "NPC.Y()",
+                    "<",
+                    "-640"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "=",
+                    "-640"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M60NT6BR4K5KJ8Z0X37ZBY5T",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemy",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Enemy.X()",
+                    "<",
+                    "-288"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "=",
+                    "-288"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Enemy.X() + Enemy.Width()",
+                    ">",
+                    "4712"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "=",
+                    "4712 - Enemy.Width()"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -11034,6 +11299,57 @@
         "mc = harness.getObjects('MC')[0];",
         "if(fol) harness.assert(fol.animation==='Idle', 'NPC Idle saat MC diam (MC='+mc.animation+', NPC='+fol.animation+')');",
         "await harness.takeScreenshot('npc-grounded');"
+      ]
+    },
+    {
+      "description": "Verify MC jump anim, movement bounds, camera clamp",
+      "lastRunAt": 1793171783981,
+      "lastRunDurationMs": 1195,
+      "lastRunFramesExecuted": 124,
+      "lastRunStatus": "passed",
+      "name": "uji-batas-kamera-lompat",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Tempat kejadian tanpa judul');",
+        "await harness.stepFrames(60);",
+        "// 1. Jump anim test for MC",
+        "const mc0 = harness.getObjects('MC')[0];",
+        "harness.assert(mc0 !== undefined, 'MC exists');",
+        "// ensure on floor then jump",
+        "harness.setKeyPressed('w', true);",
+        "await harness.stepFrames(2);",
+        "harness.setKeyPressed('w', false);",
+        "await harness.stepFrames(5);",
+        "const mcAir = harness.getObjects('MC')[0];",
+        "const animAir = mcAir.animation || '';",
+        "const onFloor = mcAir.behaviors?.['PlatformerObject']?.state?.['IsOnFloor'];",
+        "harness.assert(animAir === 'Jump' || onFloor === true, 'MC shows Jump anim while airborne (anim='+animAir+')');",
+        "await harness.stepUntil(() => {",
+        "  const m = harness.getObjects('MC')[0];",
+        "  return m?.behaviors?.['PlatformerObject']?.state?.['IsOnFloor'] === true;",
+        "}, { maxFrames: 180 });",
+        "await harness.stepFrames(5);",
+        "const mcLand = harness.getObjects('MC')[0];",
+        "harness.assert(mcLand.animation !== 'Jump', 'MC leaves Jump anim after landing (anim='+mcLand.animation+')');",
+        "// 2. Left bound clamp",
+        "const mcId = harness.getObjects('MC')[0].id;",
+        "harness.setObjectPosition(mcId, -500, 300);",
+        "await harness.stepFrames(10);",
+        "const mcClamped = harness.getObjects('MC')[0];",
+        "harness.assert(mcClamped.x >= -290, 'MC clamped to left background edge (x='+mcClamped.x+')');",
+        "// 3. Right bound clamp",
+        "harness.setObjectPosition(mcId, 4900, 300);",
+        "await harness.stepFrames(10);",
+        "const mcR = harness.getObjects('MC')[0];",
+        "harness.assert(mcR.x + mcR.width <= 4715, 'MC clamped to right edge (x+w='+(mcR.x+mcR.width)+')');",
+        "// 4. Camera inside background",
+        "const cam = harness.getCameraState('');",
+        "harness.assert(cam !== null, 'camera exists');",
+        "if (cam) {",
+        "  harness.assert(cam.x >= 300 && cam.x <= 4120, 'camera X inside background (x='+cam.x+')');",
+        "  harness.assert(cam.y >= -330 && cam.y <= 394, 'camera Y inside background (y='+cam.y+')');",
+        "}",
+        "await harness.takeScreenshot('bounds-check');"
       ]
     }
   ],
