@@ -1466,7 +1466,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2467258695740669,
+        "zoomFactor": 0.44819780454104396,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1530,7 +1530,7 @@
           "persistentUuid": "0e88d245-d49b-4938-8ae0-7a04e138063b",
           "width": 0,
           "x": 1088,
-          "y": 320,
+          "y": 384,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1561,8 +1561,8 @@
           "name": "Rifky",
           "persistentUuid": "f13c6a01-638d-4ded-a024-094f10e4da66",
           "width": 0,
-          "x": 1824,
-          "y": 352,
+          "x": 2016,
+          "y": 384,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1593,8 +1593,8 @@
           "name": "Sulton",
           "persistentUuid": "af267e33-0f94-4c9a-b18c-1d75944e6858",
           "width": 0,
-          "x": 2760,
-          "y": 336,
+          "x": 3360,
+          "y": 384,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1642,8 +1642,8 @@
           "name": "Penjara",
           "persistentUuid": "dbabb784-64a1-429a-8fec-725767c3f7ff",
           "width": 0,
-          "x": 1024,
-          "y": 296,
+          "x": 1032,
+          "y": 328,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -1675,8 +1675,8 @@
           "name": "Enemy",
           "persistentUuid": "2dbff073-5c6b-4e00-90ed-cddcfd0f62e7",
           "width": 320,
-          "x": 900,
-          "y": 268,
+          "x": 800,
+          "y": 256,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1717,8 +1717,8 @@
           "name": "Penjara",
           "persistentUuid": "86ab761f-6a62-4b9b-8684-d3f3aaec4836",
           "width": 0,
-          "x": 1768,
-          "y": 296,
+          "x": 1960,
+          "y": 328,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -1749,8 +1749,8 @@
           "name": "Penjara",
           "persistentUuid": "3dbef0b7-facb-4d22-bcb5-f1a999d08f6c",
           "width": 0,
-          "x": 2696,
-          "y": 296,
+          "x": 3304,
+          "y": 328,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -1782,8 +1782,8 @@
           "name": "Enemy",
           "persistentUuid": "fc56cddb-294f-4d18-9d79-4a53fc2bd01f",
           "width": 329,
-          "x": 1400,
-          "y": 268,
+          "x": 1568,
+          "y": 288,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1824,8 +1824,8 @@
           "name": "Enemy",
           "persistentUuid": "436d4e4c-d65b-447f-abcf-a9de8bc6aeb6",
           "width": 329,
-          "x": 2300,
-          "y": 268,
+          "x": 2871,
+          "y": 262,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1924,15 +1924,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
           "keepRatio": true,
           "layer": "",
           "name": "FinishDoor",
           "persistentUuid": "262f3869-8baf-4c92-b2e5-a327f9f1e3e8",
-          "width": 0,
-          "x": 4594,
-          "y": 512,
+          "width": 160,
+          "x": 4512,
+          "y": 448,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -2201,22 +2202,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "Tanah",
-          "persistentUuid": "cb001729-571b-47e6-a299-7f8ee23e8039",
-          "width": 100,
-          "x": 1088,
-          "y": 604,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Tanah",
           "persistentUuid": "fbbcf5f6-d761-4f30-80bb-90d3dafdc34a",
           "width": 100,
           "x": 1300,
@@ -2301,7 +2286,7 @@
           "width": 100,
           "x": 1800,
           "y": 620,
-          "zOrder": 0,
+          "zOrder": 110,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2381,7 +2366,7 @@
           "width": 100,
           "x": 2300,
           "y": 620,
-          "zOrder": 0,
+          "zOrder": 111,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2397,7 +2382,7 @@
           "width": 100,
           "x": 2400,
           "y": 620,
-          "zOrder": 0,
+          "zOrder": 112,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2413,7 +2398,7 @@
           "width": 100,
           "x": 2500,
           "y": 620,
-          "zOrder": 0,
+          "zOrder": 113,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2429,7 +2414,7 @@
           "width": 100,
           "x": 2600,
           "y": 620,
-          "zOrder": 0,
+          "zOrder": 114,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2445,7 +2430,7 @@
           "width": 100,
           "x": 2700,
           "y": 620,
-          "zOrder": 0,
+          "zOrder": 115,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2461,7 +2446,7 @@
           "width": 100,
           "x": 1200,
           "y": 620,
-          "zOrder": 0,
+          "zOrder": 109,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2477,7 +2462,7 @@
           "width": 100,
           "x": 2900,
           "y": 620,
-          "zOrder": 0,
+          "zOrder": 117,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2637,7 +2622,7 @@
           "width": 100,
           "x": 2800,
           "y": 620,
-          "zOrder": 0,
+          "zOrder": 116,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3459,7 +3444,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
+                  "looping": false,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.001,
                   "sprites": [
@@ -5072,7 +5057,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -5373,7 +5358,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
+                  "looping": false,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -7764,10 +7749,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 18.5,
+                        "y": 19
                       },
                       "customCollisionMask": [
                         [
@@ -8105,10 +8090,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -9751,7 +9736,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M5Z9QTS9TT10HHVYMB2H5NT9",
+          "aiGeneratedEventId": "01M607MB6DAQH7TRV0B8QR0NB1",
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "NPC",
           "conditions": [],
@@ -9862,16 +9847,6 @@
                           "subInstructions": [
                             {
                               "type": {
-                                "inverted": true,
-                                "value": "PlatformBehavior::IsOnFloor"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "PlatformerObject"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "AnimatableCapability::AnimatableBehavior::Name"
                               },
                               "parameters": [
@@ -9879,6 +9854,16 @@
                                 "Animation",
                                 "=",
                                 "\"Jump\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::IsOnFloor"
+                              },
+                              "parameters": [
+                                "MC",
+                                "PlatformerObject"
                               ]
                             }
                           ]
@@ -9965,7 +9950,18 @@
                 {
                   "type": "BuiltinCommonInstructions::Else",
                   "conditions": [],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "=",
+                        "MC.Y() + MC.Height() - NPC.Height()"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -10243,7 +10239,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01M5Z7TFXAX6FSS78KT2B7DJPG",
+          "aiGeneratedEventId": "01M607MB6DAQH7TRV0B8QR0NB1",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10278,6 +10274,16 @@
               },
               "parameters": [
                 "HintText"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "NPC",
+                "PlatformerObject",
+                "no"
               ]
             },
             {
@@ -10984,17 +10990,16 @@
       ]
     },
     {
-      "description": "uji mirror enemy dijauhkan",
-      "lastRunAt": 1793125611168,
-      "lastRunDurationMs": 1380,
-      "lastRunFramesExecuted": 243,
+      "description": "uji NPC grounded dan mirror",
+      "lastRunAt": 1793156872407,
+      "lastRunDurationMs": 2219,
+      "lastRunFramesExecuted": 288,
       "lastRunStatus": "passed",
       "name": "uji-final-revisi",
       "type": "gameplay",
       "source": [
         "await harness.goToScene('Tempat kejadian tanpa judul');",
         "await harness.stepFrames(30);",
-        "// Jauhkan semua enemy dari penjara 1 agar tidak game over saat uji",
         "for(const e of harness.getObjects('Enemy')){ harness.setObjectVariable(e.id, 'Speed', 0); harness.setObjectPosition(e.id, e.x+2500, e.y); }",
         "await harness.stepFrames(5);",
         "harness.setSceneVariable('Keys', 1);",
@@ -11005,17 +11010,30 @@
         "harness.setKeyPressed('e', true);",
         "await harness.stepFrames(2);",
         "harness.setKeyPressed('e', false);",
-        "await harness.stepFrames(100);",
+        "await harness.stepFrames(80);",
+        "// MC jalan, NPC harus Walk dan kakinya nempel tanah sejajar MC",
         "let npcs = [...harness.getObjects('Swykhe'),...harness.getObjects('Rifky'),...harness.getObjects('Sulton')];",
         "let fol = npcs.find(o=>o.variables.find(v=>v.name==='Following')?.value===true);",
         "harness.assert(!!fol, 'Ada NPC mengikuti');",
+        "harness.setKeyPressed('d', true);",
+        "await harness.stepFrames(50);",
+        "harness.setKeyPressed('d', false);",
+        "mc = harness.getObjects('MC')[0];",
+        "npcs = [...harness.getObjects('Swykhe'),...harness.getObjects('Rifky'),...harness.getObjects('Sulton')];",
+        "fol = npcs.find(o=>o.variables.find(v=>v.name==='Following')?.value===true);",
+        "if(fol){",
+        "  harness.assert(fol.animation==='Walk', 'NPC Walk saat MC jalan (anim='+fol.animation+')');",
+        "  const mcBottom = mc.centerY + mc.height/2;",
+        "  const npcBottom = fol.centerY + fol.height/2;",
+        "  harness.assert(Math.abs(mcBottom-npcBottom) < 40, 'NPC napak tanah sejajar MC (selisih='+Math.abs(mcBottom-npcBottom).toFixed(0)+'px)');",
+        "}",
+        "// MC diam -> NPC Idle",
+        "await harness.stepFrames(60);",
+        "npcs = [...harness.getObjects('Swykhe'),...harness.getObjects('Rifky'),...harness.getObjects('Sulton')];",
+        "fol = npcs.find(o=>o.variables.find(v=>v.name==='Following')?.value===true);",
         "mc = harness.getObjects('MC')[0];",
         "if(fol) harness.assert(fol.animation==='Idle', 'NPC Idle saat MC diam (MC='+mc.animation+', NPC='+fol.animation+')');",
-        "if(fol){ harness.setKeyPressed('d', true); await harness.stepFrames(40); harness.setKeyPressed('d', false); await harness.stepFrames(5);",
-        " npcs=[...harness.getObjects('Swykhe'),...harness.getObjects('Rifky'),...harness.getObjects('Sulton')];",
-        " fol=npcs.find(o=>o.variables.find(v=>v.name==='Following')?.value===true);",
-        " if(fol) harness.assert(fol.animation==='Walk'||fol.animation==='Jump','NPC Walk saat MC jalan (anim='+fol.animation+')'); }",
-        "await harness.takeScreenshot('mirror3');"
+        "await harness.takeScreenshot('npc-grounded');"
       ]
     }
   ],
